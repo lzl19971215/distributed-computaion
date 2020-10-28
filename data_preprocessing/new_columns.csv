@@ -1,0 +1,57 @@
+0,back_legroom
+1,city_fuel_economy
+2,daysonmarket
+3,engine_displacement
+4,franchise_dealer
+5,front_legroom
+6,fuel_tank_volume
+7,height
+8,highway_fuel_economy
+9,horsepower
+10,isCab
+11,is_new
+12,latitude
+13,length
+14,longitude
+15,maximum_seating
+16,mileage
+17,price
+18,savings_amount
+19,seller_rating
+20,wheelbase
+21,width
+22,year
+23,hp
+24,hp_RPM
+25,torque
+26,torque_RPM
+27,Convertible
+28,Coupe
+29,Hatchback
+30,Minivan
+31,Pickup Truck
+32,SUV / Crossover
+33,Sedan
+34,Van
+35,Wagon
+36,Biodiesel
+37,Compressed Natural Gas
+38,Diesel
+39,Electric
+40,Flex Fuel Vehicle
+41,Gasoline
+42,Hybrid
+43,A
+44,CVT
+45,Dual Clutch
+46,M
+47,4X2
+48,All-Wheel Drive
+49,Four-Wheel Drive
+50,Front-Wheel Drive
+51,Rear-Wheel Drive
+52,H
+53,I
+54,R
+55,V
+56,W

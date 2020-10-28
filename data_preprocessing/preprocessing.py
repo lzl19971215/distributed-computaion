@@ -12,7 +12,8 @@ wheel_system = ['4X2', 'All-Wheel Drive', 'Four-Wheel Drive', 'Front-Wheel Drive
 fuel_type = ['Biodiesel', 'Compressed Natural Gas', 'Diesel', 'Electric', 'Flex Fuel Vehicle', 'Gasoline', 'Hybrid']
 type_list = [body_type, fuel_type, transmission, wheel_system]
 index_list = [5, 23, 56, 62]
-drop_list = [0, 5, 7, 12, 13, 15, 16, 20, 23, 28, 36, 37, 40, 41, 42, 45, 47, 53, 55, 56, 57, 58, 59, 61, 62]
+drop_list = [0, 2, 3, 4, 5, 6, 7, 9, 11, 12, 13, 15, 16, 17, 18, 20, 23, 24, 28,
+             30, 31, 33, 36, 37, 38, 40, 41, 42, 45, 46, 47, 49, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62]
 for line in sys.stdin:
     line = line.strip()
     items = re.split(reg_split, line)
@@ -47,6 +48,7 @@ for line in sys.stdin:
         eng_tp = [''] * len(engine_type)
         items.extend(eng_tp)
     for i in reversed(drop_list):
-        c = items.pop(i)
-    print('\t'.join([str(item) for item in items]))
+        items.pop(i)
+    if len(items) == 57:
+        print('\t'.join([str(item) for item in items]))
 
